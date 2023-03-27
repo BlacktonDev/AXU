@@ -1,10 +1,18 @@
-#PlayerAttack
 
-Todavia no adapto el script
+
 
 #PlayerMovement
 
-Todavia no adapto el script
+Movimiento y ataque de personaje.
+
+#SkillTree 
+
+Arbol de habilidades y gestion de habilidades.
+
+#GameManager
+
+Gestion de eventos de juego como coleccionables, 
+aparicion de enemigos, timer y game over.
 
 
-					- Romo
+										- Romo
