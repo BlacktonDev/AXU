@@ -39,7 +39,7 @@ public class PlayerController : MonoBehaviour
 			transform.localScale = new Vector3(1, 1, 1);
 		}
 
-		if (Input.GetKey(KeyCode.Space) && isGrounded)
+		if ((Input.GetKey(KeyCode.Space) && isGrounded))
 		{
 			rb.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
 			isGrounded = false;
