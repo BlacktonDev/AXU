@@ -2,17 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class enemigoPatruya : MonoBehaviour
+public class enemigoPatrulla : MonoBehaviour
 {
 	
 	public float speed = 1f; 
-	public float distance = 1f; 
+	public float distance = 1f;
+	public int saludMaxima = 100;
+	private int saludActual;
 
 	private Vector3 startPosition; 
 
 	private void Start()
 	{
 		startPosition = transform.position;
+		saludActual = saludMaxima;
 	}
 
 	private void Update()
@@ -43,6 +46,22 @@ public class enemigoPatruya : MonoBehaviour
 	private void MoveRightAnim()
 	{
 		
+	}
+	
+	public void RecibirDanio(int cantidad)
+	{
+		saludActual -= cantidad;
+
+		if (saludActual <= 0)
+		{
+			Morir();
+		}
+	}
+	
+	void Morir()
+	{
+		// Agregar aquí la lógica para la muerte del enemigo
+		Destroy(gameObject);
 	}
 		
 }

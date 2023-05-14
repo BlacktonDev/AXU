@@ -73,7 +73,7 @@ public class PlayerController : MonoBehaviour
 		{
 			isGrounded = true;
 		}
-		if (collision.gameObject.GetComponent<enemigoPatruya>()!=null)
+		if (collision.gameObject.GetComponent<enemigoPatrulla>()!=null)
 		{
 			vida--;
 		}

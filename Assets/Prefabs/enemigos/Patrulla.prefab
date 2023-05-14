@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4395631263125596875}
   - component: {fileID: 4395631263125596884}
   m_Layer: 0
-  m_Name: patruya
+  m_Name: Patrulla
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
