@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
 	public float speed = 5f;
 	public float jumpForce = 10f;
 	public float gravity = 1f;
+	public float vida =3;
 	
 	private Rigidbody2D rb;
 	private Animator anim;
@@ -21,6 +22,7 @@ public class PlayerController : MonoBehaviour
     {
 	    rb = GetComponent<Rigidbody2D>();
 	    anim = GetComponent<Animator>();
+	    
     }
     
     
@@ -70,6 +72,10 @@ public class PlayerController : MonoBehaviour
 		else if(isUnderwater == true)
 		{
 			isGrounded = true;
+		}
+		if (collision.gameObject.GetComponent<enemigoPatruya>()!=null)
+		{
+			vida--;
 		}
 	}
 }
