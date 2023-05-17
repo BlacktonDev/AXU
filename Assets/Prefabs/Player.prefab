@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &3422392356292464194
+--- !u!1 &558787846371692695
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,23 +8,23 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1784265193856309497}
+  - component: {fileID: 2111937554909407455}
   m_Layer: 3
-  m_Name: Patas
+  m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1784265193856309497
+--- !u!4 &2111937554909407455
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3422392356292464194}
+  m_GameObject: {fileID: 558787846371692695}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.497, z: 0}
+  m_LocalPosition: {x: 0, y: -0.525, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 5901797066955458680}
   - component: {fileID: 5901797066955458681}
   - component: {fileID: 5901797066955458682}
-  - component: {fileID: 5901797066955458684}
+  - component: {fileID: 8498429509232269405}
   m_Layer: 3
   m_Name: Player
   m_TagString: Untagged
@@ -64,7 +64,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1784265193856309497}
+  - {fileID: 2111937554909407455}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -150,7 +150,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 5901797066955458683}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 712232b06b70817408e40acef43a694a, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -188,7 +188,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &5901797066955458684
+--- !u!114 &8498429509232269405
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -197,12 +197,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 5901797066955458683}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a2204c2d86bd0a49a6b8a0e36fe70e6, type: 3}
+  m_Script: {fileID: 11500000, guid: 2532a935c2b4ebd42a456185b7e402c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
-  jumpForce: 8
-  gravity: 1
-  vida: 3
-  isGrounded: 0
-  isUnderwater: 0
+  speed: 8
+  jumpingPower: 12
+  rb: {fileID: 5901797066955458680}
+  groundCheck: {fileID: 2111937554909407455}
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 8
