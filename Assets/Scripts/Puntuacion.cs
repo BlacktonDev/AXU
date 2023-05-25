@@ -16,7 +16,7 @@ public class Puntuacion : MonoBehaviour
     // Update is called once per frame
 	private void Update()
     {
-	    puntos += Time.deltaTime;
+	    puntos -= Time.deltaTime;
 	    texto.text = puntos.ToString("0");
     }
 	
