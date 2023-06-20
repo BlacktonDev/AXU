@@ -108,5 +108,19 @@ public class PlayerMovement : MonoBehaviour
 
 			Destroy(collision.gameObject);
 		}
+		else if (collision.collider.CompareTag("Muerte"))
+		{
+			vida = 0;
+
+
+			// Activar el objeto MenuDerrota
+			if (menuDerrota != null)
+			{
+				menuDerrota.SetActive(true);
+			}
+
+			// Destruir el jugador
+			Destroy(gameObject);
+		}
 	}
 }
