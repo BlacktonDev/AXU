@@ -8,6 +8,8 @@ TagManager:
   - Jugador
   - Enemy
   - Corriente
+  - Podervida
+  - muerte
   layers:
   - Default
   - TransparentFX
