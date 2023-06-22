@@ -239,7 +239,7 @@ GameObject:
   m_Component:
   - component: {fileID: 23505482}
   - component: {fileID: 23505483}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -323,7 +323,7 @@ GameObject:
   m_Component:
   - component: {fileID: 41617437}
   - component: {fileID: 41617438}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -406,7 +406,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 70396553}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Suelo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -449,7 +449,7 @@ GameObject:
   m_Component:
   - component: {fileID: 77726475}
   - component: {fileID: 77726476}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -533,7 +533,7 @@ GameObject:
   m_Component:
   - component: {fileID: 149896555}
   - component: {fileID: 149896556}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -650,7 +650,7 @@ GameObject:
   m_Component:
   - component: {fileID: 158800783}
   - component: {fileID: 158800784}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -772,7 +772,7 @@ GameObject:
   m_Component:
   - component: {fileID: 167649636}
   - component: {fileID: 167649637}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -856,7 +856,7 @@ GameObject:
   m_Component:
   - component: {fileID: 171509051}
   - component: {fileID: 171509052}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -940,7 +940,7 @@ GameObject:
   m_Component:
   - component: {fileID: 175900853}
   - component: {fileID: 175900854}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1125,7 +1125,7 @@ GameObject:
   m_Component:
   - component: {fileID: 179766779}
   - component: {fileID: 179766780}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1385,7 +1385,7 @@ GameObject:
   m_Component:
   - component: {fileID: 193598605}
   - component: {fileID: 193598606}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1469,7 +1469,7 @@ GameObject:
   m_Component:
   - component: {fileID: 215710469}
   - component: {fileID: 215710470}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1554,7 +1554,7 @@ GameObject:
   - component: {fileID: 215755518}
   - component: {fileID: 215755519}
   - component: {fileID: 215755520}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Limite_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1781,7 +1781,7 @@ GameObject:
   m_Component:
   - component: {fileID: 226803394}
   - component: {fileID: 226803395}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1865,7 +1865,7 @@ GameObject:
   m_Component:
   - component: {fileID: 230626684}
   - component: {fileID: 230626685}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1948,7 +1948,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 231998761}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: S7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2072,7 +2072,7 @@ GameObject:
   m_Component:
   - component: {fileID: 234626153}
   - component: {fileID: 234626154}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2491,7 +2491,7 @@ GameObject:
   m_Component:
   - component: {fileID: 256416539}
   - component: {fileID: 256416540}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2709,7 +2709,7 @@ GameObject:
   m_Component:
   - component: {fileID: 294098019}
   - component: {fileID: 294098020}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2798,7 +2798,7 @@ GameObject:
   m_Component:
   - component: {fileID: 302342639}
   - component: {fileID: 302342640}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2882,7 +2882,7 @@ GameObject:
   m_Component:
   - component: {fileID: 305947124}
   - component: {fileID: 305947125}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3079,7 +3079,7 @@ GameObject:
   m_Component:
   - component: {fileID: 320319365}
   - component: {fileID: 320319366}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3195,7 +3195,7 @@ GameObject:
   m_Component:
   - component: {fileID: 350612563}
   - component: {fileID: 350612564}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3279,7 +3279,7 @@ GameObject:
   m_Component:
   - component: {fileID: 362293753}
   - component: {fileID: 362293754}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Flores1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3561,7 +3561,7 @@ GameObject:
   m_Component:
   - component: {fileID: 392256185}
   - component: {fileID: 392256186}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Flores1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3723,7 +3723,7 @@ GameObject:
   m_Component:
   - component: {fileID: 439675068}
   - component: {fileID: 439675069}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3807,7 +3807,7 @@ GameObject:
   m_Component:
   - component: {fileID: 442013468}
   - component: {fileID: 442013469}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4076,7 +4076,7 @@ GameObject:
   m_Component:
   - component: {fileID: 451701817}
   - component: {fileID: 451701818}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4164,7 +4164,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 500794317}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: S10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4288,7 +4288,7 @@ GameObject:
   m_Component:
   - component: {fileID: 529822945}
   - component: {fileID: 529822946}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4371,7 +4371,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 535846813}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: S6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4545,7 +4545,7 @@ GameObject:
   m_Component:
   - component: {fileID: 563879058}
   - component: {fileID: 563879059}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4745,7 +4745,7 @@ GameObject:
   m_Component:
   - component: {fileID: 590110412}
   - component: {fileID: 590110413}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4829,7 +4829,7 @@ GameObject:
   m_Component:
   - component: {fileID: 590838123}
   - component: {fileID: 590838124}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4913,7 +4913,7 @@ GameObject:
   m_Component:
   - component: {fileID: 591942938}
   - component: {fileID: 591942939}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5002,7 +5002,7 @@ GameObject:
   m_Component:
   - component: {fileID: 612267386}
   - component: {fileID: 612267387}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5454,7 +5454,7 @@ GameObject:
   m_Component:
   - component: {fileID: 691814086}
   - component: {fileID: 691814087}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5528,6 +5528,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &693245528
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 693245529}
+  m_Layer: 0
+  m_Name: Spawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &693245529
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 693245528}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.7, y: -3.13, z: -0.051395245}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &709578189
 GameObject:
   m_ObjectHideFlags: 0
@@ -5773,7 +5804,7 @@ GameObject:
   m_Component:
   - component: {fileID: 731227381}
   - component: {fileID: 731227382}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5857,7 +5888,7 @@ GameObject:
   m_Component:
   - component: {fileID: 745478788}
   - component: {fileID: 745478789}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6075,7 +6106,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 758707112}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: S5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6120,7 +6151,7 @@ GameObject:
   m_Component:
   - component: {fileID: 765488655}
   - component: {fileID: 765488656}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6474,7 +6505,7 @@ GameObject:
   m_Component:
   - component: {fileID: 783222464}
   - component: {fileID: 783222465}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6557,7 +6588,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 786155800}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: S1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6596,7 +6627,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 789742011}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: S3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6908,7 +6939,7 @@ GameObject:
   m_Component:
   - component: {fileID: 831252710}
   - component: {fileID: 831252711}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6992,7 +7023,7 @@ GameObject:
   m_Component:
   - component: {fileID: 831356181}
   - component: {fileID: 831356182}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Flores1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7192,7 +7223,7 @@ GameObject:
   m_Component:
   - component: {fileID: 848691185}
   - component: {fileID: 848691186}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7276,7 +7307,7 @@ GameObject:
   m_Component:
   - component: {fileID: 855271644}
   - component: {fileID: 855271645}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7612,7 +7643,7 @@ GameObject:
   m_Component:
   - component: {fileID: 868466206}
   - component: {fileID: 868466207}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7696,7 +7727,7 @@ GameObject:
   m_Component:
   - component: {fileID: 888212015}
   - component: {fileID: 888212016}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7892,7 +7923,7 @@ GameObject:
   - component: {fileID: 893942179}
   - component: {fileID: 893942180}
   - component: {fileID: 893942181}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Limite_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8001,7 +8032,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 915460282}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: S2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8040,7 +8071,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 930435680}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: S4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8401,7 +8432,7 @@ GameObject:
   m_Component:
   - component: {fileID: 962544093}
   - component: {fileID: 962544094}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8775,7 +8806,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1052840106}
   - component: {fileID: 1052840107}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8905,7 +8936,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1073629630}
   - component: {fileID: 1073629631}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8994,7 +9025,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1087820666}
   - component: {fileID: 1087820667}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9078,7 +9109,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1093837643}
   - component: {fileID: 1093837644}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9263,7 +9294,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1109862785}
   - component: {fileID: 1109862786}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9347,7 +9378,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1118171751}
   - component: {fileID: 1118171752}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9548,7 +9579,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1134752506}
   - component: {fileID: 1134752507}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9716,7 +9747,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1166321732}
   - component: {fileID: 1166321733}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9805,7 +9836,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1198322435}
   - component: {fileID: 1198322436}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Flores1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9893,7 +9924,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1231783143}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: S8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10044,7 +10075,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1261230178}
   - component: {fileID: 1261230179}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Flores1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10128,7 +10159,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1279883774}
   - component: {fileID: 1279883775}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10322,7 +10353,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1294713309}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: S9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10609,7 +10640,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1356780201}
   - component: {fileID: 1356780202}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10693,7 +10724,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1368652970}
   - component: {fileID: 1368652971}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10897,7 +10928,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1400577841}
   - component: {fileID: 1400577842}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10981,7 +11012,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1425252444}
   - component: {fileID: 1425252445}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11286,7 +11317,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1449794358}
   - component: {fileID: 1449794359}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11468,7 +11499,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1507724048}
   - component: {fileID: 1507724049}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Flores1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11552,7 +11583,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1517506031}
   - component: {fileID: 1517506032}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11864,7 +11895,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1555935668}
   - component: {fileID: 1555935669}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Flores1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12066,7 +12097,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1587757824}
   - component: {fileID: 1587757825}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12150,7 +12181,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1588111620}
   - component: {fileID: 1588111621}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12382,7 +12413,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1594322305}
   - component: {fileID: 1594322306}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12471,7 +12502,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1602760113}
   - component: {fileID: 1602760114}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12554,7 +12585,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1626534268}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: S11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12594,7 +12625,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1629881059}
   - component: {fileID: 1629881060}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Flores1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12678,7 +12709,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1633262012}
   - component: {fileID: 1633262013}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12762,7 +12793,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1652649632}
   - component: {fileID: 1652649633}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13243,7 +13274,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1768699636}
   - component: {fileID: 1768699637}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13327,7 +13358,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1769306770}
   - component: {fileID: 1769306771}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13734,7 +13765,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1818362626}
   - component: {fileID: 1818362627}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13968,7 +13999,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1889737793}
   - component: {fileID: 1889737794}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14136,7 +14167,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1922934434}
   - component: {fileID: 1922934435}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Flores1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14225,7 +14256,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1943839709}
   - component: {fileID: 1943839710}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14420,7 +14451,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1957209643}
   - component: {fileID: 1957209644}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14509,7 +14540,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1994978503}
   - component: {fileID: 1994978504}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14594,7 +14625,7 @@ GameObject:
   - component: {fileID: 2001209052}
   - component: {fileID: 2001209054}
   - component: {fileID: 2001209053}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Limite_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14769,7 +14800,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2024043157}
   - component: {fileID: 2024043158}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Flores1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15119,7 +15150,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2100755063}
   - component: {fileID: 2100755064}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Flores1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15326,6 +15357,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5901797066955458680, guid: f750d30dda880fe4e9cf1e040f97b5e9, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 712232b06b70817408e40acef43a694a, type: 2}
+    - target: {fileID: 5901797066955458680, guid: f750d30dda880fe4e9cf1e040f97b5e9, type: 3}
       propertyPath: m_Constraints
       value: 4
       objectReference: {fileID: 0}
@@ -15405,6 +15440,10 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 8498429509232269405, guid: f750d30dda880fe4e9cf1e040f97b5e9, type: 3}
+      propertyPath: spawnPoint
+      value: 
+      objectReference: {fileID: 693245529}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f750d30dda880fe4e9cf1e040f97b5e9, type: 3}
 --- !u!1 &2135950662
@@ -15520,7 +15559,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2141740873}
   - component: {fileID: 2141740874}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Piedra_fondo (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

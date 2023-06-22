@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -7,8 +8,10 @@ public class PlayerMovement : MonoBehaviour
 	public float jumpingPower = 16f;
 	private bool isFacingRight = true;
 
-	public float vida = 3;
-	public GameObject menuDerrota; // Referencia al objeto MenuDerrota en la escena
+	public int vidaMaxima = 3; // Valor máximo de vida
+	private int vida;
+	public GameObject menuDerrota;
+	public Transform spawnPoint; // Punto de reaparición del jugador
 
 	[SerializeField] private Rigidbody2D rb;
 	[SerializeField] private Transform groundCheck;
@@ -18,6 +21,11 @@ public class PlayerMovement : MonoBehaviour
 	public float projectileLifetime = 2f;
 
 	private bool isJumping = false;
+
+	private void Start()
+	{
+		vida = vidaMaxima; // Asignar vida máxima al iniciar el juego
+	}
 
 	private void Update()
 	{
@@ -88,39 +96,39 @@ public class PlayerMovement : MonoBehaviour
 			}
 			else
 			{
-				vida -= 1;
-
-				if (vida <= 0)
-				{
-					// Desactivar el script para evitar más colisiones
-					enabled = false;
-
-					// Activar el objeto MenuDerrota
-					if (menuDerrota != null)
-					{
-						menuDerrota.SetActive(true);
-					}
-
-					// Destruir el jugador
-					Destroy(gameObject);
-				}
+				PerderVida(1); // Pierde 1 punto de vida al colisionar con un enemigo
 			}
-
-			Destroy(collision.gameObject);
 		}
 		else if (collision.collider.CompareTag("Muerte"))
 		{
-			vida = 0;
+			PerderVida(vida); // Pierde todos los puntos de vida al colisionar con una barrera de "Muerte"
+		}
+	}
 
+	private void PerderVida(int cantidad)
+	{
+		vida -= cantidad;
 
-			// Activar el objeto MenuDerrota
-			if (menuDerrota != null)
-			{
-				menuDerrota.SetActive(true);
-			}
+		if (vida <= 0)
+		{
+			Muerte();
+		}
+	}
 
-			// Destruir el jugador
-			Destroy(gameObject);
+	private void Muerte()
+	{
+		// Reiniciar nivel
+		SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+
+		// Regresar al punto de spawn
+		//transform.position = spawnPoint.position;
+
+		// Reiniciar vida máxima
+		vida = vidaMaxima;
+
+		if (menuDerrota != null)
+		{
+			menuDerrota.SetActive(true);
 		}
 	}
 }
