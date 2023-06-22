@@ -52,3 +52,18 @@ TagManager:
   - name: Fondo
     uniqueID: 511654793
     locked: 0
+  - name: fondo2
+    uniqueID: 2919358571
+    locked: 0
+  - name: fondo3
+    uniqueID: 3446261015
+    locked: 0
+  - name: fondo4
+    uniqueID: 666244575
+    locked: 0
+  - name: fondo5
+    uniqueID: 3044832399
+    locked: 0
+  - name: fondo6
+    uniqueID: 2310870265
+    locked: 0
