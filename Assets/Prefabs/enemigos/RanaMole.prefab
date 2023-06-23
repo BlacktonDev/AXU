@@ -100,11 +100,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fcfdd444b07db24a9a09cced82a5667, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpForce: 7
+  jumpForce: 0.25
   movementSpeed: 3
+  detectionRange: 20
   groundLayer:
     serializedVersion: 2
     m_Bits: 8
+  playerTag: Player
 --- !u!50 &4559507821886820485
 Rigidbody2D:
   serializedVersion: 4
