@@ -1113,6 +1113,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 4395631263125596885, guid: 07fa05cc8d6ddb942b68b99c5ebba247, type: 3}
+      propertyPath: m_TagString
+      value: Plataforma
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07fa05cc8d6ddb942b68b99c5ebba247, type: 3}
 --- !u!1 &179766778
@@ -1768,6 +1772,10 @@ PrefabInstance:
     - target: {fileID: 4395631263125596885, guid: 07fa05cc8d6ddb942b68b99c5ebba247, type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4395631263125596885, guid: 07fa05cc8d6ddb942b68b99c5ebba247, type: 3}
+      propertyPath: m_TagString
+      value: Plataforma
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07fa05cc8d6ddb942b68b99c5ebba247, type: 3}
@@ -3358,6 +3366,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 4395631263125596885, guid: 07fa05cc8d6ddb942b68b99c5ebba247, type: 3}
+      propertyPath: m_TagString
+      value: Plataforma
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07fa05cc8d6ddb942b68b99c5ebba247, type: 3}
 --- !u!1 &320319364
@@ -4361,6 +4373,10 @@ PrefabInstance:
     - target: {fileID: 4395631263125596885, guid: 07fa05cc8d6ddb942b68b99c5ebba247, type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4395631263125596885, guid: 07fa05cc8d6ddb942b68b99c5ebba247, type: 3}
+      propertyPath: m_TagString
+      value: Plataforma
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07fa05cc8d6ddb942b68b99c5ebba247, type: 3}
@@ -5886,6 +5902,10 @@ PrefabInstance:
     - target: {fileID: 4395631263125596885, guid: 07fa05cc8d6ddb942b68b99c5ebba247, type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4395631263125596885, guid: 07fa05cc8d6ddb942b68b99c5ebba247, type: 3}
+      propertyPath: m_TagString
+      value: Plataforma
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07fa05cc8d6ddb942b68b99c5ebba247, type: 3}
@@ -8054,6 +8074,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 4395631263125596885, guid: 07fa05cc8d6ddb942b68b99c5ebba247, type: 3}
+      propertyPath: m_TagString
+      value: Plataforma
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07fa05cc8d6ddb942b68b99c5ebba247, type: 3}
 --- !u!1 &863727185
@@ -8204,6 +8228,10 @@ PrefabInstance:
     - target: {fileID: 4395631263125596885, guid: 07fa05cc8d6ddb942b68b99c5ebba247, type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4395631263125596885, guid: 07fa05cc8d6ddb942b68b99c5ebba247, type: 3}
+      propertyPath: m_TagString
+      value: Plataforma
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07fa05cc8d6ddb942b68b99c5ebba247, type: 3}
@@ -9224,6 +9252,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 4395631263125596885, guid: 07fa05cc8d6ddb942b68b99c5ebba247, type: 3}
+      propertyPath: m_TagString
+      value: Plataforma
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07fa05cc8d6ddb942b68b99c5ebba247, type: 3}
 --- !u!4 &1000417377 stripped
@@ -9856,6 +9888,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 4395631263125596885, guid: 07fa05cc8d6ddb942b68b99c5ebba247, type: 3}
+      propertyPath: m_TagString
+      value: Plataforma
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07fa05cc8d6ddb942b68b99c5ebba247, type: 3}
 --- !u!1 &1109862784
@@ -10140,6 +10176,10 @@ PrefabInstance:
     - target: {fileID: 4395631263125596885, guid: 07fa05cc8d6ddb942b68b99c5ebba247, type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4395631263125596885, guid: 07fa05cc8d6ddb942b68b99c5ebba247, type: 3}
+      propertyPath: m_TagString
+      value: Plataforma
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07fa05cc8d6ddb942b68b99c5ebba247, type: 3}
@@ -12224,6 +12264,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 4395631263125596885, guid: 07fa05cc8d6ddb942b68b99c5ebba247, type: 3}
+      propertyPath: m_TagString
+      value: Plataforma
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07fa05cc8d6ddb942b68b99c5ebba247, type: 3}
 --- !u!4 &1476566127 stripped
@@ -12821,6 +12865,10 @@ PrefabInstance:
     - target: {fileID: 4395631263125596885, guid: 07fa05cc8d6ddb942b68b99c5ebba247, type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4395631263125596885, guid: 07fa05cc8d6ddb942b68b99c5ebba247, type: 3}
+      propertyPath: m_TagString
+      value: Plataforma
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07fa05cc8d6ddb942b68b99c5ebba247, type: 3}
@@ -14667,6 +14715,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 4395631263125596885, guid: 07fa05cc8d6ddb942b68b99c5ebba247, type: 3}
+      propertyPath: m_TagString
+      value: Plataforma
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07fa05cc8d6ddb942b68b99c5ebba247, type: 3}
 --- !u!1 &1811912006
@@ -14984,6 +15036,10 @@ PrefabInstance:
     - target: {fileID: 4395631263125596885, guid: 07fa05cc8d6ddb942b68b99c5ebba247, type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4395631263125596885, guid: 07fa05cc8d6ddb942b68b99c5ebba247, type: 3}
+      propertyPath: m_TagString
+      value: Plataforma
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07fa05cc8d6ddb942b68b99c5ebba247, type: 3}
@@ -16383,6 +16439,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 4395631263125596885, guid: 07fa05cc8d6ddb942b68b99c5ebba247, type: 3}
+      propertyPath: m_TagString
+      value: Plataforma
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07fa05cc8d6ddb942b68b99c5ebba247, type: 3}
 --- !u!1 &2109128088
@@ -16496,6 +16556,14 @@ PrefabInstance:
       propertyPath: m_Constraints
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 5901797066955458681, guid: f750d30dda880fe4e9cf1e040f97b5e9, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5901797066955458681, guid: f750d30dda880fe4e9cf1e040f97b5e9, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5901797066955458683, guid: f750d30dda880fe4e9cf1e040f97b5e9, type: 3}
       propertyPath: m_Name
       value: Player
@@ -16571,6 +16639,14 @@ PrefabInstance:
     - target: {fileID: 5901797066955458686, guid: f750d30dda880fe4e9cf1e040f97b5e9, type: 3}
       propertyPath: m_SortingOrder
       value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 6622436644338242921, guid: f750d30dda880fe4e9cf1e040f97b5e9, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6622436644338242921, guid: f750d30dda880fe4e9cf1e040f97b5e9, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8498429509232269405, guid: f750d30dda880fe4e9cf1e040f97b5e9, type: 3}
       propertyPath: spawnPoint

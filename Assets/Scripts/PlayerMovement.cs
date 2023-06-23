@@ -103,6 +103,12 @@ public class PlayerMovement : MonoBehaviour
 		{
 			PerderVida(vida); // Pierde todos los puntos de vida al colisionar con una barrera de "Muerte"
 		}
+		
+		if (collision.gameObject.tag == "Plataforma")
+		{
+			Debug.Log("Toca plataforma");
+			transform.SetParent(collision.transform);
+		}
 	}
 
 	private void PerderVida(int cantidad)
@@ -129,6 +135,15 @@ public class PlayerMovement : MonoBehaviour
 		if (menuDerrota != null)
 		{
 			menuDerrota.SetActive(true);
+		}
+	}
+	
+
+	void OnCollisionExit2D(Collision2D collision)
+	{
+		if (collision.gameObject.tag == "Plataforma")
+		{
+			transform.parent = null;
 		}
 	}
 }

@@ -12,6 +12,7 @@ TagManager:
   - Muerte
   - Suelo
   - Pared
+  - Plataforma
   layers:
   - Default
   - TransparentFX
