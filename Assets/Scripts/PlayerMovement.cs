@@ -19,12 +19,23 @@ public class PlayerMovement : MonoBehaviour
 	[SerializeField] private GameObject projectilePrefab;
 	public float projectileSpeed = 10f;
 	public float projectileLifetime = 2f;
+	
+	public bool recibiendodano = false;
+	private float damageAnimationDuration = 1f; // Duración de la animación de recibir daño en segundos
+	private float damageAnimationTimer = 0f; // Temporizador para controlar la duración de la animación de recibir daño
+	
+	private bool isAttacking = false;
+	private float attackAnimationDuration = 1.5f; // Duración de la animación de ataque en segundos
+	private float attackAnimationTimer = 0f; // Temporizador para controlar la duración de la animación de ataque
+	
+	private Animator animator;
 
 	private bool isJumping = false;
 
 	private void Start()
 	{
 		vida = vidaMaxima; // Asignar vida máxima al iniciar el juego
+		animator = GetComponent<Animator>();
 	}
 
 	private void Update()
@@ -38,6 +49,8 @@ public class PlayerMovement : MonoBehaviour
 
 		if (Input.GetKeyDown(KeyCode.F))
 		{
+			isAttacking = true;
+			attackAnimationTimer = 0f;
 			LaunchProjectile();
 		}
 
@@ -45,7 +58,27 @@ public class PlayerMovement : MonoBehaviour
 		{
 			rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
 		}
-
+		animator.SetFloat("X", Mathf.Abs(horizontal));
+		animator.SetBool("saltando", isJumping);
+		animator.SetBool("lastimado", recibiendodano);
+		if (recibiendodano)
+		{
+			damageAnimationTimer += Time.deltaTime;
+			if (damageAnimationTimer >= damageAnimationDuration)
+			{
+				recibiendodano = false;
+			}
+		}
+		animator.SetBool("atacando", isAttacking);
+		if (isAttacking)
+		{
+			attackAnimationTimer += Time.deltaTime;
+			if (attackAnimationTimer >= attackAnimationDuration)
+			{
+				isAttacking = false;
+			}
+		}
+		
 		Flip();
 	}
 
@@ -57,6 +90,7 @@ public class PlayerMovement : MonoBehaviour
 		{
 			rb.AddForce(new Vector2(0f, jumpingPower), ForceMode2D.Impulse);
 			isJumping = false;
+			animator.SetBool("saltando", isJumping);
 		}
 	}
 
@@ -114,6 +148,7 @@ public class PlayerMovement : MonoBehaviour
 	private void PerderVida(int cantidad)
 	{
 		vida -= cantidad;
+		recibiendodano = true;
 
 		if (vida <= 0)
 		{
