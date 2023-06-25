@@ -4827,7 +4827,7 @@ GameObject:
   - component: {fileID: 5544480810204183014}
   m_Layer: 0
   m_Name: projectilePrefab
-  m_TagString: Untagged
+  m_TagString: balaPlayer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

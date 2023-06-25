@@ -16,6 +16,7 @@ public class Rana : MonoBehaviour
 	private bool isOnGround = false;
 	private bool isFalling = false;
 	[SerializeField]Animator animator;
+	[SerializeField] private int vida = 3;
 
 	private void Start()
 	{
@@ -25,6 +26,10 @@ public class Rana : MonoBehaviour
 
 	private void Update()
 	{
+		if (vida <= 0)
+		{
+			gameObject.SetActive(false);
+		}
 		if (player != null)
 		{
 			float distanceToPlayer = Vector2.Distance(transform.position, player.transform.position);
@@ -78,7 +83,14 @@ public class Rana : MonoBehaviour
 			
 		}
 	}
-
+	private void OnTriggerEnter2D(Collider2D collision)
+	{
+		if (collision.CompareTag("balaPlayer")) // Verifica si el objeto que ingresó al trigger tiene el tag "Player"
+		{
+			vida--;
+		}
+	}
+	
 	private void OnCollisionEnter2D(Collision2D collision)
 	{
 		// Detección de colisión con el suelo
