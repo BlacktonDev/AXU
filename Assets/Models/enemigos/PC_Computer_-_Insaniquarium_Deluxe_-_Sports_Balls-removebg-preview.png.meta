@@ -1,0 +1,1037 @@
+fileFormatVersion: 2
+guid: 4116f3e05e5ecb74f9b11c3b31d4ead9
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 7.5
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 211
+        width: 183
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a6ba63365b8494587c0777c9dab991
+      internalID: -1858181807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 155
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5662a22bcf58e06448de8701747271af
+      internalID: 92826718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 155
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 824d3203ebd3c5248a59d23f95f283fe
+      internalID: 1438142407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 155
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b457776b8c0eb4abcd483b70126b06
+      internalID: -1385954096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 155
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9228543e861888943877d5a4a02d01d0
+      internalID: -1886515432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 155
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e349677fbc4e6142b72908d2db1e753
+      internalID: 1893495964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 155
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 845beefe86229c14e84f1d443ef9be17
+      internalID: -414655467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 155
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ab428af035d3245a9de7a531243c7f
+      internalID: 1900356461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 155
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e24000e466400d4285c9ce5e58f6bcd
+      internalID: 1861181507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 155
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a52610299e9f14e4696514252d30ab04
+      internalID: -2119636921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 155
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb817fc0099c054da05410c0b708ba5
+      internalID: -651497287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 105
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fadcf78fd9d9f30438892fc8eb9c541b
+      internalID: 1674014495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 105
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 951787d44ad0b01428c75f7d720b7988
+      internalID: 1902302148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 105
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab873fb630291094db2f443fc40fabd4
+      internalID: -783909428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 105
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aed01b6497ff8049b0f97afeeb4a701
+      internalID: 1343377090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 105
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f56eb9ce29c5bb4ba9a801932169c8c
+      internalID: -1778952398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 105
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd36e2d51ee5e84faf7085794e290f0
+      internalID: 1653661535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 105
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c59c55e6e9de1ee40a36c1d08d9dd70d
+      internalID: 232282362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 105
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e763c573bf90be44bfb6427e606afb9
+      internalID: 1981035580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 105
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d9f5d97114a30848b04f12561e6f3a4
+      internalID: 2026984871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 105
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b35763bfc0f1ed9479ecddc14615eab7
+      internalID: 1695085988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 51
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aaae82670c411349b1e1c5e2bea4418
+      internalID: 201176771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 51
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e1f3ef517b1974e9a5d8e2a50beae1
+      internalID: -147728748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 51
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01d9e2779511f1445890f5f04d45a0d9
+      internalID: -20317724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 51
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1733c21177a662648819e722b7044219
+      internalID: 896460217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 51
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9d28f5946b6d204e9b31d816345ebd7
+      internalID: -2113677605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 51
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf317d3b85bd4ce42a215429d6ecad9d
+      internalID: 919158952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 51
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c174bef85905e34d8141c66fb35e3e2
+      internalID: 673232916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_28
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 51
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f97423329001bc144a6204286d43b04a
+      internalID: 216521512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_29
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 51
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a5380729272fd478cea478c489408a
+      internalID: 1012600935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_30
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 51
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d431d3dd9209c4741ac935b07d37a4c5
+      internalID: -1841734086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_31
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 11
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26323d93b570cb54a9353f303065f5e8
+      internalID: -1226815416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_32
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 11
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b230c00e04792d4184d40fe0ebf5d6c
+      internalID: 857585398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_33
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 11
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29187efed80f439458327458b8d639ad
+      internalID: -1684482771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_34
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 11
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e86250aa62a3c76449be5eb9490707e4
+      internalID: -1775615776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_35
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 11
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4707691e0d9f3b941ac7e767657a3095
+      internalID: 1509845655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_36
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 11
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a7d0a16d57840d4fae4d5dd01ae93f3
+      internalID: 1432407427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_37
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 11
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cdd26597eb503a4dba55a07942563c2
+      internalID: -2021223216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_38
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 11
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e033b29a18b9c4fab4102876d75112
+      internalID: 230707089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_39
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 11
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c76e0f6996e674e4bbb701591ece3ec3
+      internalID: -1288027917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_40
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 11
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d55190e9fbd36b94185d836bebfa95be
+      internalID: -83083459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_0: -1858181807
+      PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_1: 92826718
+      PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_10: -651497287
+      PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_11: 1674014495
+      PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_12: 1902302148
+      PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_13: -783909428
+      PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_14: 1343377090
+      PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_15: -1778952398
+      PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_16: 1653661535
+      PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_17: 232282362
+      PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_18: 1981035580
+      PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_19: 2026984871
+      PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_2: 1438142407
+      PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_20: 1695085988
+      PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_21: 201176771
+      PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_22: -147728748
+      PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_23: -20317724
+      PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_24: 896460217
+      PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_25: -2113677605
+      PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_26: 919158952
+      PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_27: 673232916
+      PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_28: 216521512
+      PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_29: 1012600935
+      PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_3: -1385954096
+      PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_30: -1841734086
+      PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_31: -1226815416
+      PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_32: 857585398
+      PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_33: -1684482771
+      PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_34: -1775615776
+      PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_35: 1509845655
+      PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_36: 1432407427
+      PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_37: -2021223216
+      PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_38: 230707089
+      PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_39: -1288027917
+      PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_4: -1886515432
+      PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_40: -83083459
+      PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_5: 1893495964
+      PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_6: -414655467
+      PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_7: 1900356461
+      PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_8: 1861181507
+      PC_Computer_-_Insaniquarium_Deluxe_-_Sports_Balls-removebg-preview_9: -2119636921
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
