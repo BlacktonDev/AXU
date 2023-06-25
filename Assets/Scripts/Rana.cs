@@ -15,6 +15,7 @@ public class Rana : MonoBehaviour
 	private bool isJumping = false;
 	private bool isOnGround = false;
 	private bool isFalling = false;
+	[SerializeField]Animator animator;
 
 	private void Start()
 	{
@@ -54,6 +55,7 @@ public class Rana : MonoBehaviour
 				{
 					isJumping = true;
 					rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+					animator.SetBool("direc", true);
 				}
 			}
 			else
@@ -67,10 +69,13 @@ public class Rana : MonoBehaviour
 		if (rb.velocity.y < 0f)
 		{
 			isFalling = true;
+			
 		}
 		else
 		{
 			isFalling = false;
+			
+			
 		}
 	}
 
@@ -89,6 +94,7 @@ public class Rana : MonoBehaviour
 		if (((1 << collision.gameObject.layer) & groundLayer) != 0)
 		{
 			isOnGround = false;
+			animator.SetBool("direc", false);
 		}
 	}
 }
