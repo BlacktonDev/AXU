@@ -11,8 +11,10 @@ GameObject:
   - component: {fileID: 4395631263125596873}
   - component: {fileID: 4395631263125596874}
   - component: {fileID: 4395631263125596875}
+  - component: {fileID: 8664629656173464106}
   - component: {fileID: 4395631263125596884}
   - component: {fileID: 1325603803711727777}
+  - component: {fileID: 599620991877425942}
   m_Layer: 0
   m_Name: Patrulla
   m_TagString: Plataforma
@@ -102,6 +104,18 @@ MonoBehaviour:
   speed: 1
   distance: 2.29
   saludMaxima: 100
+--- !u!114 &8664629656173464106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4395631263125596885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa80ceadb9231824aafac21f4bd26d29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!61 &4395631263125596884
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -149,3 +163,24 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!50 &599620991877425942
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4395631263125596885}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
