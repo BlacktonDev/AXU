@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Rana : MonoBehaviour
+public class Rana_tactica : MonoBehaviour
 {
+
 	public float jumpForce = 5f; // Fuerza de salto
 	public float movementSpeed = 3f; // Velocidad de movimiento horizontal
 	public float detectionRange = 10f; // Rango de detección para seguir al jugador
@@ -20,16 +21,35 @@ public class Rana : MonoBehaviour
 	public bool isMovingRight = true;
 	public float ime = 0;
 	public bool dir= true;
+	public float im2 =0;
+	public GameObject balaDer;
+	public GameObject balaIzq;
+
 
 	private void Start()
 	{
 		rb = GetComponent<Rigidbody2D>();
 		player = GameObject.FindGameObjectWithTag(playerTag);
+		InvokeRepeating("CalculateMovementDirection", 0f, 0.3f);
 	}
 
 	private void Update()
 	{
+		
+		
+	
 		ime= ime + Time.deltaTime;
+		im2= im2 + Time.deltaTime;
+		if (im2 >3){
+			im2 =0;
+			if(dir){
+				Instantiate(balaDer, transform.position, Quaternion.identity);
+			
+			}
+			else{
+				Instantiate(balaIzq, transform.position, Quaternion.identity);
+			}
+		}
 		if(ime > .15){
 			animator.SetBool("jump", false);
 		}
@@ -79,6 +99,7 @@ public class Rana : MonoBehaviour
 					isJumping = true;
 					rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
 					animator.SetBool("jump", true);
+					
 				}
 			}
 			else
@@ -117,6 +138,8 @@ public class Rana : MonoBehaviour
 			isOnGround = true;
 		}
 	}
+	
+	
 
 	private void OnCollisionExit2D(Collision2D collision)
 	{
