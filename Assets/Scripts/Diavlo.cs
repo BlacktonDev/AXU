@@ -7,7 +7,7 @@ public class Diavlo : MonoBehaviour
 	public Vector2 direction = Vector2.right;
 	public int vida =10;
 	public float speed = 1f;
-	private GameObject player;
+	[SerializeField]private GameObject player;
 	private Vector2 targetPosition;
 	private Vector2 initialPosition;
 	private int estado = 0;
@@ -24,7 +24,7 @@ public class Diavlo : MonoBehaviour
 	void Start()
 	{
 		player = GameObject.FindGameObjectWithTag("Player");
-		resetPosition = new Vector2(645.4f, 82.56f); // Asigna la posición deseada del objeto para el reinicio
+		resetPosition = new Vector2(651f, 84f); // Asigna la posición deseada del objeto para el reinicio
 	}
 
 	void Update()
@@ -99,7 +99,16 @@ public class Diavlo : MonoBehaviour
 	{
 		if (collision.CompareTag("balaPlayer")) // Verifica si el objeto que ingresó al trigger tiene el tag "Player"
 		{
-			vida--;
+			PlayerMovement playerMovement = player.GetComponent<PlayerMovement>();
+			if (playerMovement != null)
+			{
+				int currentDamage = playerMovement.currentDamage;
+				vida = vida- currentDamage;
+			}
+			else
+			{
+				Debug.LogWarning("El objeto no tiene el script PlayerMovement.");
+			}
 		}
 	}
 	private void aplatar()

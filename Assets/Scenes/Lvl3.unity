@@ -9203,6 +9203,8 @@ GameObject:
   - component: {fileID: 721811000}
   - component: {fileID: 721811002}
   - component: {fileID: 721811003}
+  - component: {fileID: 721811005}
+  - component: {fileID: 721811004}
   m_Layer: 0
   m_Name: diablo-idle1
   m_TagString: Enemy
@@ -9270,7 +9272,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 721810999}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 645.4, y: 82.56, z: 0}
+  m_LocalPosition: {x: 651, y: 84.2, z: 0}
   m_LocalScale: {x: 0.5704562, y: 0.5900364, z: 2.8827}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9292,6 +9294,7 @@ MonoBehaviour:
   direction: {x: -1, y: 0}
   vida: 10
   speed: 5
+  player: {fileID: 615101168}
 --- !u!70 &721811003
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -9308,6 +9311,42 @@ CapsuleCollider2D:
   m_Offset: {x: -1.5283365, y: -0.33583173}
   m_Size: {x: 15.726602, y: 7.01078}
   m_Direction: 1
+--- !u!111 &721811004
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 721810999}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!95 &721811005
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 721810999}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a2fe3f7b9c0be344ab1a9ff70cbd384e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &725040398
 GameObject:
   m_ObjectHideFlags: 0
