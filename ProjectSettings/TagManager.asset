@@ -8,13 +8,15 @@ TagManager:
   - Jugador
   - Enemy
   - Corriente
-  - Podervida
   - Muerte
   - Suelo
   - Pared
   - Plataforma
   - balaPlayer
   - ObjetoInvertido
+  - Checkpoint
+  - PUVida
+  - PUDobleDanio
   layers:
   - Default
   - TransparentFX

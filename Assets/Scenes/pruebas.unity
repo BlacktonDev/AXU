@@ -17749,7 +17749,7 @@ GameObject:
   - component: {fileID: 991485654}
   m_Layer: 3
   m_Name: MonedaEspecial2
-  m_TagString: Podervida
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20334,7 +20334,7 @@ GameObject:
   - component: {fileID: 1131852557}
   m_Layer: 3
   m_Name: MonedaEspecial1
-  m_TagString: Podervida
+  m_TagString: PUVida
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35929,23 +35929,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5901797066955458681, guid: f750d30dda880fe4e9cf1e040f97b5e9, type: 3}
       propertyPath: m_SpriteTilingProperty.border.w
-      value: 1.2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5901797066955458681, guid: f750d30dda880fe4e9cf1e040f97b5e9, type: 3}
       propertyPath: m_SpriteTilingProperty.border.x
-      value: 1.4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5901797066955458681, guid: f750d30dda880fe4e9cf1e040f97b5e9, type: 3}
       propertyPath: m_SpriteTilingProperty.border.z
-      value: 1.6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5901797066955458681, guid: f750d30dda880fe4e9cf1e040f97b5e9, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 6.4
+      value: 3.4
       objectReference: {fileID: 0}
     - target: {fileID: 5901797066955458681, guid: f750d30dda880fe4e9cf1e040f97b5e9, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 6.4
+      value: 5.2
       objectReference: {fileID: 0}
     - target: {fileID: 5901797066955458683, guid: f750d30dda880fe4e9cf1e040f97b5e9, type: 3}
       propertyPath: m_Name
@@ -36025,27 +36025,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6622436644338242921, guid: f750d30dda880fe4e9cf1e040f97b5e9, type: 3}
       propertyPath: m_SpriteTilingProperty.border.w
-      value: 1.2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6622436644338242921, guid: f750d30dda880fe4e9cf1e040f97b5e9, type: 3}
       propertyPath: m_SpriteTilingProperty.border.x
-      value: 1.4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6622436644338242921, guid: f750d30dda880fe4e9cf1e040f97b5e9, type: 3}
       propertyPath: m_SpriteTilingProperty.border.z
-      value: 1.6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6622436644338242921, guid: f750d30dda880fe4e9cf1e040f97b5e9, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 6.4
+      value: 3.4
       objectReference: {fileID: 0}
     - target: {fileID: 6622436644338242921, guid: f750d30dda880fe4e9cf1e040f97b5e9, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 6.4
+      value: 5.2
       objectReference: {fileID: 0}
     - target: {fileID: 8498429509232269405, guid: f750d30dda880fe4e9cf1e040f97b5e9, type: 3}
       propertyPath: vida
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8498429509232269405, guid: f750d30dda880fe4e9cf1e040f97b5e9, type: 3}
+      propertyPath: PUDobleSalto
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f750d30dda880fe4e9cf1e040f97b5e9, type: 3}
