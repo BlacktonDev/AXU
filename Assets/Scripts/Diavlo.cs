@@ -24,7 +24,7 @@ public class Diavlo : MonoBehaviour
 	void Start()
 	{
 		player = GameObject.FindGameObjectWithTag("Player");
-		resetPosition = new Vector2(364f, 20f); // Asigna la posición deseada del objeto para el reinicio
+		resetPosition = new Vector2(645.4f, 82.56f); // Asigna la posición deseada del objeto para el reinicio
 	}
 
 	void Update()

@@ -36,7 +36,7 @@ public class PlayerMovement : MonoBehaviour
 	private bool doubleJumpUnlocked = false; // Indica si el doble salto está desbloqueado
 
 	public int damageBase = 1; // Daño base
-	private int currentDamage; // Daño actual
+	public int currentDamage; // Daño actual
 
 	// Power ups
 	public bool PUvida = false;
