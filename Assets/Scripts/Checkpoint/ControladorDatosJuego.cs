@@ -16,7 +16,7 @@ public class ControladorDatosJuego : MonoBehaviour
 	public bool PUDobleDanio;
 	public bool PUVida;
 	
-	private void Awake()
+	private void Start()
 	{
 		archivoDeGuardado = Application.dataPath + "/datosJuego.json";
 		

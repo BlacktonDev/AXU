@@ -215,7 +215,7 @@ public class PlayerMovement : MonoBehaviour
 		if (collision.CompareTag("PUVida"))
 		{
 			PUVida = true;
-			vidaMaxima *= 2;
+			vidaMaxima = vidaMaxima + 2;
 			vida = vidaMaxima;
 		}
 		if (collision.CompareTag("PUDobleDanio"))
