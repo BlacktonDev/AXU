@@ -9,7 +9,7 @@ public class PlayerMovement : MonoBehaviour
 	private bool isFacingRight = true;
 
 	public int vidaMaxima = 3; // Valor máximo de vida
-	private int vida;
+	public int vida;
 	public GameObject menuDerrota;
 	public Transform spawnPoint; // Punto de reaparición del jugador
 
@@ -39,15 +39,19 @@ public class PlayerMovement : MonoBehaviour
 	public int currentDamage; // Daño actual
 
 	// Power ups
-	public bool PUvida = false;
+	public bool PUVida = false;
 	public bool PUDobleSalto = false;
 	public bool PUDobleDanio = false;
-
+	
+	public ControladorDatosJuego controlador;
+	
+	
 	private void Start()
 	{
 		vida = vidaMaxima; // Asignar vida máxima al iniciar el juego
 		animator = GetComponent<Animator>();
 		currentDamage = damageBase; // Inicializar el daño actual con el daño base
+		controlador = FindObjectOfType<ControladorDatosJuego>();
 	}
 
 	private void Update()
@@ -185,9 +189,6 @@ public class PlayerMovement : MonoBehaviour
 
 	private void Muerte()
 	{
-		// Guardar la posición del último Checkpoint en PlayerPrefs
-		PlayerPrefs.SetFloat("LastCheckpointX", CheckpointManager.lastCheckpointPosition.x);
-		PlayerPrefs.SetFloat("LastCheckpointY", CheckpointManager.lastCheckpointPosition.y);
 
 		// Reiniciar nivel
 		SceneManager.LoadScene(SceneManager.GetActiveScene().name);
@@ -213,7 +214,7 @@ public class PlayerMovement : MonoBehaviour
 	{
 		if (collision.CompareTag("PUVida"))
 		{
-			PUvida = true;
+			PUVida = true;
 			vidaMaxima *= 2;
 			vida = vidaMaxima;
 		}
@@ -224,23 +225,9 @@ public class PlayerMovement : MonoBehaviour
 		}
 		if (collision.CompareTag("Checkpoint"))
 		{
-			// Actualiza el estado del juego en el CheckpointManager
-			CheckpointManager.gameStateData = CreateGameStateData();
-			CheckpointManager.lastCheckpointPosition = transform.position; // Actualiza la posición del último Checkpoint alcanzado
-			Debug.Log("Guardado");
+			controlador?.GuardarDatos();
 		}
 	}
 
-	private GameStateData CreateGameStateData()
-	{
-		// Crea y devuelve un objeto GameStateData con la información relevante del estado del juego
-		GameStateData gameStateData = new GameStateData();
-		gameStateData.playerPosition = transform.position;
-		gameStateData.vidaMaxima = vidaMaxima;
-		gameStateData.vida = vida;
-		gameStateData.PUvida = PUvida;
-		gameStateData.PUDobleDanio = PUDobleDanio;
 
-		return gameStateData;
-	}
 }
