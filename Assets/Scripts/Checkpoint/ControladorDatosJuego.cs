@@ -21,6 +21,7 @@ public class ControladorDatosJuego : MonoBehaviour
 		archivoDeGuardado = Application.dataPath + "/datosJuego.json";
 		
 		jugador = GameObject.FindGameObjectWithTag("Player");
+		GuardarDatos();
 		CargarDatos();
 	}
 	
@@ -44,6 +45,13 @@ public class ControladorDatosJuego : MonoBehaviour
 			string contenido = File.ReadAllText(archivoDeGuardado);
 			datosJuego = JsonUtility.FromJson<DatosJuego>(contenido);
 			
+			//jugador.transform.position = datosJuego.playerPosition;
+			jugador.GetComponent<PlayerMovement>().vida = datosJuego.vida;
+			jugador.GetComponent<PlayerMovement>().PUVida = datosJuego.PUvida;
+			jugador.GetComponent<PlayerMovement>().PUDobleDanio = datosJuego.PUDobleDanio;
+			jugador.GetComponent<PlayerMovement>().vidaMaxima = datosJuego.vidaMaxima;
+			
+			
 			Debug.Log("Posicion del jugador : " + datosJuego.playerPosition);
 			Debug.Log("PUDanio : " + datosJuego.PUDobleDanio);
 			Debug.Log("PUVida : " + datosJuego.PUvida);
@@ -51,12 +59,7 @@ public class ControladorDatosJuego : MonoBehaviour
 			Debug.Log("VidaMaxima : " + datosJuego.vidaMaxima);
 			Debug.Log("Posicion del jugador : " + datosJuego.vida);
 			
-			jugador.transform.position = datosJuego.playerPosition;
-			jugador.GetComponent<PlayerMovement>().vida = datosJuego.vida;
-			jugador.GetComponent<PlayerMovement>().PUVida = datosJuego.PUvida;
-			jugador.GetComponent<PlayerMovement>().PUDobleDanio = datosJuego.PUDobleDanio;
-			jugador.GetComponent<PlayerMovement>().vidaMaxima = datosJuego.vidaMaxima;
-			
+
 			if (datosJuego.PUvida)
 			{
 				DestruirObjetosPorTag("PUVida");
@@ -79,7 +82,7 @@ public class ControladorDatosJuego : MonoBehaviour
 	{
 		DatosJuego nuevosDatos = new DatosJuego()
 		{
-			playerPosition = jugador.transform.position,
+			//playerPosition = jugador.transform.position,
 			vida = jugador.GetComponent<PlayerMovement>().vida,
 			PUvida = jugador.GetComponent<PlayerMovement>().PUVida,
 			PUDobleDanio = jugador.GetComponent<PlayerMovement>().PUDobleDanio,

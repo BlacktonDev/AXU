@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class CambioNivel : MonoBehaviour
 {
-	
 	// Start is called before the first frame update
 	[SerializeField] string scene;
     void Start()

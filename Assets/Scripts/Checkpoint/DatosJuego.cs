@@ -11,4 +11,5 @@ public class DatosJuego
 	public int vida;
 	public bool PUvida;
 	public bool PUDobleDanio;
+	public string nEscena;
 }
