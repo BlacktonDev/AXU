@@ -7,6 +7,9 @@ public class PlayerMovement : MonoBehaviour
 	public float speed = 8f;
 	public float jumpingPower = 16f;
 	private bool isFacingRight = true;
+	
+	public float cooldownTime = 0.1f;
+	private float cooldownTimer = 0f;
 
 	public int vidaMaxima = 3; // Valor máximo de vida
 	public int vida;
@@ -78,12 +81,20 @@ public class PlayerMovement : MonoBehaviour
 				jumpsRemaining--;
 			}
 		}
-
-		if (Input.GetKeyDown(KeyCode.F))
+		
+		if (cooldownTimer > 0)
+		{
+			cooldownTimer -= Time.deltaTime;
+		}
+		
+		if (Input.GetKeyDown(KeyCode.F) && cooldownTimer <= 0f)
 		{
 			isAttacking = true;
 			attackAnimationTimer = 0f;
 			LaunchProjectile();
+
+			// Establecer el tiempo de enfriamiento
+			cooldownTimer = cooldownTime;
 		}
 
 		if (Input.GetButtonUp("Jump") && rb.velocity.y > 0f)
