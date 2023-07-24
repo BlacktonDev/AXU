@@ -17,6 +17,8 @@ TagManager:
   - Checkpoint
   - PUVida
   - PUDobleDanio
+  - Podervida
+  - Control
   layers:
   - Default
   - TransparentFX

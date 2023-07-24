@@ -197,7 +197,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4559507821886820475, guid: 21832b8943b20744db81b4f62440415f, type: 3}
       propertyPath: jumpForce
-      value: 1
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 4559507821886820478, guid: 21832b8943b20744db81b4f62440415f, type: 3}
       propertyPath: m_Name
@@ -517,7 +517,7 @@ Transform:
   - {fileID: 548637640}
   - {fileID: 1431163094}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &35150116
 GameObject:
@@ -531,7 +531,7 @@ GameObject:
   - component: {fileID: 35150118}
   m_Layer: 3
   m_Name: Piedra_fondo (6)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -800,7 +800,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &77221728
 GameObject:
@@ -1458,7 +1458,7 @@ RectTransform:
   - {fileID: 1991795470}
   - {fileID: 1058657677}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1478,7 +1478,7 @@ GameObject:
   - component: {fileID: 120203258}
   m_Layer: 3
   m_Name: Suelo1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1638,7 +1638,7 @@ GameObject:
   - component: {fileID: 131097406}
   m_Layer: 3
   m_Name: Piedra_fondo (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1976,7 +1976,7 @@ GameObject:
   - component: {fileID: 137812466}
   m_Layer: 3
   m_Name: Piedra_fondo (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2137,7 +2137,7 @@ GameObject:
   - component: {fileID: 141594882}
   m_Layer: 3
   m_Name: Piedra_fondo
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2933,6 +2933,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4559507821886820472, guid: 21832b8943b20744db81b4f62440415f, type: 3}
   m_PrefabInstance: {fileID: 1875316622}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &189174566
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2727171824890114264, guid: a19f24aaa41289f48bf9527c60221d56, type: 3}
+      propertyPath: m_Name
+      value: punto de control (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2727171824890114270, guid: a19f24aaa41289f48bf9527c60221d56, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2727171824890114270, guid: a19f24aaa41289f48bf9527c60221d56, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 497
+      objectReference: {fileID: 0}
+    - target: {fileID: 2727171824890114270, guid: a19f24aaa41289f48bf9527c60221d56, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 15.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2727171824890114270, guid: a19f24aaa41289f48bf9527c60221d56, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10.997706
+      objectReference: {fileID: 0}
+    - target: {fileID: 2727171824890114270, guid: a19f24aaa41289f48bf9527c60221d56, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2727171824890114270, guid: a19f24aaa41289f48bf9527c60221d56, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2727171824890114270, guid: a19f24aaa41289f48bf9527c60221d56, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2727171824890114270, guid: a19f24aaa41289f48bf9527c60221d56, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2727171824890114270, guid: a19f24aaa41289f48bf9527c60221d56, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2727171824890114270, guid: a19f24aaa41289f48bf9527c60221d56, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2727171824890114270, guid: a19f24aaa41289f48bf9527c60221d56, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a19f24aaa41289f48bf9527c60221d56, type: 3}
 --- !u!4 &194508208 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4559507821886820472, guid: ffa7130e16207ea4ba548dcd72e7765c, type: 3}
@@ -2950,7 +3007,7 @@ GameObject:
   - component: {fileID: 199826670}
   m_Layer: 3
   m_Name: Piedra_fondo (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3227,7 +3284,7 @@ GameObject:
   - component: {fileID: 213560955}
   m_Layer: 3
   m_Name: Piedra_fondo (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3311,7 +3368,7 @@ GameObject:
   - component: {fileID: 221284287}
   m_Layer: 3
   m_Name: Piedra_fondo (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3396,7 +3453,7 @@ GameObject:
   - component: {fileID: 224903305}
   m_Layer: 3
   m_Name: Piedra_fondo (13)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3550,7 +3607,7 @@ GameObject:
   - component: {fileID: 228012225}
   m_Layer: 3
   m_Name: Piedra_fondo
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3634,7 +3691,7 @@ GameObject:
   - component: {fileID: 229795449}
   m_Layer: 3
   m_Name: Piedra_fondo (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4153,6 +4210,63 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &270401331
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2727171824890114264, guid: a19f24aaa41289f48bf9527c60221d56, type: 3}
+      propertyPath: m_Name
+      value: punto de control (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2727171824890114270, guid: a19f24aaa41289f48bf9527c60221d56, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2727171824890114270, guid: a19f24aaa41289f48bf9527c60221d56, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 73.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2727171824890114270, guid: a19f24aaa41289f48bf9527c60221d56, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2727171824890114270, guid: a19f24aaa41289f48bf9527c60221d56, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10.997706
+      objectReference: {fileID: 0}
+    - target: {fileID: 2727171824890114270, guid: a19f24aaa41289f48bf9527c60221d56, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2727171824890114270, guid: a19f24aaa41289f48bf9527c60221d56, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2727171824890114270, guid: a19f24aaa41289f48bf9527c60221d56, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2727171824890114270, guid: a19f24aaa41289f48bf9527c60221d56, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2727171824890114270, guid: a19f24aaa41289f48bf9527c60221d56, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2727171824890114270, guid: a19f24aaa41289f48bf9527c60221d56, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2727171824890114270, guid: a19f24aaa41289f48bf9527c60221d56, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a19f24aaa41289f48bf9527c60221d56, type: 3}
 --- !u!1 &270610879
 GameObject:
   m_ObjectHideFlags: 0
@@ -4282,7 +4396,7 @@ GameObject:
   - component: {fileID: 276538791}
   m_Layer: 3
   m_Name: Piedra_fondo (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4541,6 +4655,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rana_tactica (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 4559507821886820485, guid: ffa7130e16207ea4ba548dcd72e7765c, type: 3}
+      propertyPath: m_Mass
+      value: 0.3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ffa7130e16207ea4ba548dcd72e7765c, type: 3}
 --- !u!1 &319510354
@@ -4556,7 +4674,7 @@ GameObject:
   - component: {fileID: 319510356}
   m_Layer: 3
   m_Name: Suelo1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4711,7 +4829,7 @@ GameObject:
   - component: {fileID: 337183565}
   m_Layer: 3
   m_Name: Piedra_fondo (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4795,7 +4913,7 @@ GameObject:
   - component: {fileID: 352077862}
   m_Layer: 3
   m_Name: Piedra_fondo (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4963,7 +5081,7 @@ GameObject:
   - component: {fileID: 361445878}
   m_Layer: 3
   m_Name: Piedra_fondo (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5053,7 +5171,7 @@ GameObject:
   - component: {fileID: 361559659}
   m_Layer: 3
   m_Name: Suelo1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5205,6 +5323,10 @@ PrefabInstance:
     - target: {fileID: 4559507821886820478, guid: ffa7130e16207ea4ba548dcd72e7765c, type: 3}
       propertyPath: m_Name
       value: rana_tactica (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7421925521525795904, guid: ffa7130e16207ea4ba548dcd72e7765c, type: 3}
+      propertyPath: jumpForce
+      value: 0.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ffa7130e16207ea4ba548dcd72e7765c, type: 3}
@@ -5581,7 +5703,7 @@ GameObject:
   - component: {fileID: 382254912}
   m_Layer: 3
   m_Name: Piedra_fondo (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5749,7 +5871,7 @@ GameObject:
   - component: {fileID: 409646130}
   m_Layer: 3
   m_Name: Piedra_fondo (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5856,7 +5978,7 @@ RectTransform:
   - {fileID: 1275808225}
   - {fileID: 1937525178}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -6485,7 +6607,7 @@ GameObject:
   - component: {fileID: 467969863}
   m_Layer: 3
   m_Name: Piedra_fondo
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6819,7 +6941,7 @@ GameObject:
   - component: {fileID: 487960674}
   m_Layer: 3
   m_Name: Piedra_fondo (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6903,7 +7025,7 @@ GameObject:
   - component: {fileID: 488408937}
   m_Layer: 3
   m_Name: Piedra_fondo (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7071,7 +7193,7 @@ GameObject:
   - component: {fileID: 500083714}
   m_Layer: 3
   m_Name: Piedra_fondo (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7568,7 +7690,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &562547879
 GameObject:
@@ -7652,7 +7774,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &564404082
 GameObject:
@@ -7742,7 +7864,7 @@ GameObject:
   - component: {fileID: 568456165}
   m_Layer: 3
   m_Name: Piedra_fondo (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7831,7 +7953,7 @@ GameObject:
   - component: {fileID: 579351082}
   m_Layer: 3
   m_Name: Piedra_fondo (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8126,7 +8248,7 @@ GameObject:
   - component: {fileID: 594936079}
   m_Layer: 3
   m_Name: Piedra_fondo (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8425,7 +8547,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7421925521525795904, guid: ffa7130e16207ea4ba548dcd72e7765c, type: 3}
       propertyPath: jumpForce
-      value: 1.8
+      value: 0.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ffa7130e16207ea4ba548dcd72e7765c, type: 3}
@@ -8633,7 +8755,7 @@ GameObject:
   - component: {fileID: 633489345}
   m_Layer: 3
   m_Name: Piedra_fondo (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9164,7 +9286,7 @@ GameObject:
   - component: {fileID: 688516506}
   m_Layer: 3
   m_Name: Piedra_fondo (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9406,7 +9528,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &721811002
 MonoBehaviour:
@@ -9488,7 +9610,7 @@ GameObject:
   - component: {fileID: 725040400}
   m_Layer: 3
   m_Name: Piedra_fondo (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9989,7 +10111,7 @@ GameObject:
   - component: {fileID: 745327067}
   m_Layer: 3
   m_Name: Piedra_fondo (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10293,7 +10415,7 @@ GameObject:
   - component: {fileID: 753188524}
   m_Layer: 3
   m_Name: Suelo1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10487,7 +10609,7 @@ GameObject:
   - component: {fileID: 773457580}
   m_Layer: 3
   m_Name: Piedra_fondo (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10569,6 +10691,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4559507821886820472, guid: 21832b8943b20744db81b4f62440415f, type: 3}
   m_PrefabInstance: {fileID: 664313442}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &790622237
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2727171824890114264, guid: a19f24aaa41289f48bf9527c60221d56, type: 3}
+      propertyPath: m_Name
+      value: punto de control
+      objectReference: {fileID: 0}
+    - target: {fileID: 2727171824890114270, guid: a19f24aaa41289f48bf9527c60221d56, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2727171824890114270, guid: a19f24aaa41289f48bf9527c60221d56, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 241.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2727171824890114270, guid: a19f24aaa41289f48bf9527c60221d56, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 15.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2727171824890114270, guid: a19f24aaa41289f48bf9527c60221d56, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10.997706
+      objectReference: {fileID: 0}
+    - target: {fileID: 2727171824890114270, guid: a19f24aaa41289f48bf9527c60221d56, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2727171824890114270, guid: a19f24aaa41289f48bf9527c60221d56, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2727171824890114270, guid: a19f24aaa41289f48bf9527c60221d56, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2727171824890114270, guid: a19f24aaa41289f48bf9527c60221d56, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2727171824890114270, guid: a19f24aaa41289f48bf9527c60221d56, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2727171824890114270, guid: a19f24aaa41289f48bf9527c60221d56, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2727171824890114270, guid: a19f24aaa41289f48bf9527c60221d56, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a19f24aaa41289f48bf9527c60221d56, type: 3}
 --- !u!4 &793161336 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4559507821886820472, guid: ffa7130e16207ea4ba548dcd72e7765c, type: 3}
@@ -10709,7 +10888,7 @@ GameObject:
   - component: {fileID: 799145224}
   m_Layer: 3
   m_Name: Piedra_fondo (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10877,7 +11056,7 @@ GameObject:
   - component: {fileID: 802972196}
   m_Layer: 3
   m_Name: Piedra_fondo (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11435,7 +11614,7 @@ GameObject:
   - component: {fileID: 842626587}
   m_Layer: 3
   m_Name: Piedra_fondo (9)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11819,7 +11998,7 @@ GameObject:
   - component: {fileID: 866007731}
   m_Layer: 3
   m_Name: Piedra_fondo
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12026,7 +12205,7 @@ GameObject:
   - component: {fileID: 874718710}
   m_Layer: 3
   m_Name: Piedra_fondo (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12322,7 +12501,7 @@ GameObject:
   - component: {fileID: 880305779}
   m_Layer: 3
   m_Name: Suelo1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12760,7 +12939,7 @@ GameObject:
   - component: {fileID: 889005836}
   m_Layer: 3
   m_Name: Piedra_fondo (8)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13096,7 +13275,7 @@ GameObject:
   - component: {fileID: 925755089}
   m_Layer: 3
   m_Name: Piedra_fondo (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13512,7 +13691,7 @@ GameObject:
   - component: {fileID: 965315542}
   m_Layer: 3
   m_Name: Suelo1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13622,7 +13801,7 @@ GameObject:
   - component: {fileID: 965824765}
   m_Layer: 3
   m_Name: Piedra_fondo (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13744,7 +13923,7 @@ Transform:
   - {fileID: 553878110}
   - {fileID: 1987008610}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &997479607
 GameObject:
@@ -13892,7 +14071,7 @@ GameObject:
   - component: {fileID: 999303027}
   m_Layer: 3
   m_Name: Piedra_fondo
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13976,7 +14155,7 @@ GameObject:
   - component: {fileID: 1004435635}
   m_Layer: 3
   m_Name: Piedra_fondo (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14061,7 +14240,7 @@ GameObject:
   - component: {fileID: 1006869996}
   m_Layer: 3
   m_Name: Suelo1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14254,7 +14433,7 @@ RectTransform:
   - {fileID: 1071782017}
   - {fileID: 270610880}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -14583,7 +14762,7 @@ GameObject:
   - component: {fileID: 1051345367}
   m_Layer: 3
   m_Name: Suelo1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14694,7 +14873,7 @@ GameObject:
   - component: {fileID: 1057765620}
   m_Layer: 3
   m_Name: Suelo1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15109,7 +15288,7 @@ GameObject:
   - component: {fileID: 1065149527}
   m_Layer: 3
   m_Name: Piedra_fondo (13)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15219,7 +15398,7 @@ GameObject:
   - component: {fileID: 1067503226}
   m_Layer: 3
   m_Name: Piedra_fondo (7)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15303,7 +15482,7 @@ GameObject:
   - component: {fileID: 1070018914}
   m_Layer: 3
   m_Name: Piedra_fondo (6)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15388,7 +15567,7 @@ GameObject:
   - component: {fileID: 1070787904}
   m_Layer: 3
   m_Name: Suelo1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15729,7 +15908,7 @@ GameObject:
   - component: {fileID: 1076138346}
   m_Layer: 3
   m_Name: Piedra_fondo (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15945,7 +16124,7 @@ GameObject:
   - component: {fileID: 1091713153}
   m_Layer: 3
   m_Name: Piedra_fondo (7)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16029,7 +16208,7 @@ GameObject:
   - component: {fileID: 1091995599}
   m_Layer: 3
   m_Name: Piedra_fondo (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16231,7 +16410,7 @@ GameObject:
   - component: {fileID: 1117301389}
   m_Layer: 3
   m_Name: Piedra_fondo (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16315,7 +16494,7 @@ GameObject:
   - component: {fileID: 1138410269}
   m_Layer: 3
   m_Name: Piedra_fondo (6)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16881,7 +17060,7 @@ GameObject:
   - component: {fileID: 1177333796}
   m_Layer: 3
   m_Name: Piedra_fondo
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16965,7 +17144,7 @@ GameObject:
   - component: {fileID: 1177510074}
   m_Layer: 3
   m_Name: Piedra_fondo (10)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17178,7 +17357,7 @@ GameObject:
   - component: {fileID: 1195392567}
   m_Layer: 3
   m_Name: Piedra_fondo (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17476,7 +17655,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5487793345422082352, guid: 6c56cfcfe74ce454e97f1c6d3756d24e, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5487793345422082352, guid: 6c56cfcfe74ce454e97f1c6d3756d24e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17578,6 +17757,10 @@ PrefabInstance:
     - target: {fileID: 4559507821886820478, guid: ffa7130e16207ea4ba548dcd72e7765c, type: 3}
       propertyPath: m_Name
       value: rana_tactica (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7421925521525795904, guid: ffa7130e16207ea4ba548dcd72e7765c, type: 3}
+      propertyPath: jumpForce
+      value: 0.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ffa7130e16207ea4ba548dcd72e7765c, type: 3}
@@ -18504,7 +18687,7 @@ GameObject:
   - component: {fileID: 1274788456}
   m_Layer: 3
   m_Name: Piedra_fondo
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18829,7 +19012,7 @@ GameObject:
   - component: {fileID: 1304204448}
   m_Layer: 3
   m_Name: Piedra_fondo (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18998,7 +19181,7 @@ GameObject:
   - component: {fileID: 1306323770}
   m_Layer: 3
   m_Name: Suelo1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19444,7 +19627,7 @@ GameObject:
   - component: {fileID: 1334020233}
   m_Layer: 3
   m_Name: Piedra_fondo
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19529,7 +19712,7 @@ GameObject:
   - component: {fileID: 1337006467}
   m_Layer: 3
   m_Name: Suelo1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19947,7 +20130,7 @@ Transform:
   - {fileID: 1702210150}
   - {fileID: 745343704}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1001 &1356905083
 PrefabInstance:
@@ -20781,7 +20964,7 @@ GameObject:
   - component: {fileID: 1382593778}
   m_Layer: 3
   m_Name: Piedra_fondo (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21203,7 +21386,7 @@ GameObject:
   - component: {fileID: 1411568622}
   m_Layer: 3
   m_Name: Piedra_fondo (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21287,7 +21470,7 @@ GameObject:
   - component: {fileID: 1412564941}
   m_Layer: 3
   m_Name: Piedra_fondo (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21907,7 +22090,7 @@ GameObject:
   - component: {fileID: 1444281266}
   m_Layer: 3
   m_Name: Suelo1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22094,7 +22277,7 @@ GameObject:
   - component: {fileID: 1470759457}
   m_Layer: 3
   m_Name: Piedra_fondo (10)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22713,7 +22896,7 @@ GameObject:
   - component: {fileID: 1522031666}
   m_Layer: 3
   m_Name: Piedra_fondo (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23088,7 +23271,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1549534574
 GameObject:
@@ -23186,7 +23369,7 @@ GameObject:
   - component: {fileID: 1560556819}
   m_Layer: 3
   m_Name: Piedra_fondo (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24348,7 +24531,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4559507821886820475, guid: 21832b8943b20744db81b4f62440415f, type: 3}
       propertyPath: jumpForce
-      value: 1.2
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 4559507821886820478, guid: 21832b8943b20744db81b4f62440415f, type: 3}
       propertyPath: m_Name
@@ -24687,7 +24870,7 @@ GameObject:
   - component: {fileID: 1635425453}
   m_Layer: 3
   m_Name: Piedra_fondo (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24771,7 +24954,7 @@ GameObject:
   - component: {fileID: 1635957786}
   m_Layer: 3
   m_Name: Piedra_fondo (9)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24939,7 +25122,7 @@ GameObject:
   - component: {fileID: 1646568111}
   m_Layer: 3
   m_Name: Piedra_fondo (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25023,7 +25206,7 @@ GameObject:
   - component: {fileID: 1647977436}
   m_Layer: 3
   m_Name: Piedra_fondo (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25580,7 +25763,7 @@ GameObject:
   - component: {fileID: 1672719408}
   m_Layer: 3
   m_Name: Piedra_fondo (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25664,7 +25847,7 @@ GameObject:
   - component: {fileID: 1674700322}
   m_Layer: 3
   m_Name: Piedra_fondo (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25749,7 +25932,7 @@ GameObject:
   - component: {fileID: 1678285117}
   m_Layer: 3
   m_Name: Piedra_fondo (15)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25859,7 +26042,7 @@ GameObject:
   - component: {fileID: 1681576883}
   m_Layer: 3
   m_Name: Piedra_fondo (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26258,7 +26441,7 @@ GameObject:
   - component: {fileID: 1728464289}
   m_Layer: 3
   m_Name: Suelo1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26453,7 +26636,7 @@ GameObject:
   - component: {fileID: 1739815668}
   m_Layer: 3
   m_Name: Suelo1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27524,7 +27707,7 @@ GameObject:
   - component: {fileID: 1805895304}
   m_Layer: 3
   m_Name: Suelo1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27634,7 +27817,7 @@ GameObject:
   - component: {fileID: 1809494253}
   m_Layer: 3
   m_Name: Piedra_fondo (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27706,6 +27889,63 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1814656837
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2727171824890114264, guid: a19f24aaa41289f48bf9527c60221d56, type: 3}
+      propertyPath: m_Name
+      value: punto de control (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2727171824890114270, guid: a19f24aaa41289f48bf9527c60221d56, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2727171824890114270, guid: a19f24aaa41289f48bf9527c60221d56, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 2727171824890114270, guid: a19f24aaa41289f48bf9527c60221d56, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 2727171824890114270, guid: a19f24aaa41289f48bf9527c60221d56, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10.997706
+      objectReference: {fileID: 0}
+    - target: {fileID: 2727171824890114270, guid: a19f24aaa41289f48bf9527c60221d56, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2727171824890114270, guid: a19f24aaa41289f48bf9527c60221d56, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2727171824890114270, guid: a19f24aaa41289f48bf9527c60221d56, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2727171824890114270, guid: a19f24aaa41289f48bf9527c60221d56, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2727171824890114270, guid: a19f24aaa41289f48bf9527c60221d56, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2727171824890114270, guid: a19f24aaa41289f48bf9527c60221d56, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2727171824890114270, guid: a19f24aaa41289f48bf9527c60221d56, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a19f24aaa41289f48bf9527c60221d56, type: 3}
 --- !u!1 &1815954829
 GameObject:
   m_ObjectHideFlags: 0
@@ -27718,7 +27958,7 @@ GameObject:
   - component: {fileID: 1815954831}
   m_Layer: 3
   m_Name: Piedra_fondo (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28019,7 +28259,7 @@ GameObject:
   - component: {fileID: 1828944558}
   m_Layer: 3
   m_Name: Piedra_fondo (14)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28256,7 +28496,7 @@ GameObject:
   - component: {fileID: 1836100624}
   m_Layer: 3
   m_Name: Piedra_fondo (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28535,7 +28775,7 @@ GameObject:
   - component: {fileID: 1864483365}
   m_Layer: 3
   m_Name: Piedra_fondo (8)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28746,7 +28986,7 @@ GameObject:
   - component: {fileID: 1873823919}
   m_Layer: 3
   m_Name: Piedra_fondo (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28871,7 +29111,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5901797066955458685, guid: f750d30dda880fe4e9cf1e040f97b5e9, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5901797066955458685, guid: f750d30dda880fe4e9cf1e040f97b5e9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -31030,7 +31270,7 @@ GameObject:
   - component: {fileID: 2026547616}
   m_Layer: 3
   m_Name: Piedra_fondo (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31833,7 +32073,7 @@ GameObject:
   - component: {fileID: 2072386163}
   m_Layer: 3
   m_Name: Piedra_fondo (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31917,7 +32157,7 @@ GameObject:
   - component: {fileID: 2079872113}
   m_Layer: 3
   m_Name: Piedra_fondo (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32396,7 +32636,7 @@ GameObject:
   - component: {fileID: 2130604681}
   m_Layer: 3
   m_Name: Suelo1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32931,7 +33171,7 @@ GameObject:
   - component: {fileID: 2144420413}
   m_Layer: 3
   m_Name: Piedra_fondo (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

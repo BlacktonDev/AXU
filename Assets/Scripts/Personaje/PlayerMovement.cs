@@ -22,6 +22,8 @@ public class PlayerMovement : MonoBehaviour
 	[SerializeField] private GameObject projectilePrefab;
 	public float projectileSpeed = 10f;
 	public float projectileLifetime = 2f;
+	
+	private Vector2 posicionGuardada;
 
 	public bool recibiendodano = false;
 	private float damageAnimationDuration = 1f; // Duración de la animación de recibir daño en segundos
@@ -45,6 +47,7 @@ public class PlayerMovement : MonoBehaviour
 	public bool PUVida = false;
 	public bool PUDobleSalto = false;
 	public bool PUDobleDanio = false;
+	public GameObject objetoAMover;
 	
 	public ControladorDatosJuego controlador;
 	
@@ -202,15 +205,25 @@ public class PlayerMovement : MonoBehaviour
 	{
 
 		// Reiniciar nivel
-		SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+		//SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 
 		// Reiniciar vida máxima
 		vida = vidaMaxima;
-
+		transform.position = posicionGuardada;
+		
+		if (objetoAMover != null)
+		{
+			Vector2 posicionObjetoAMover = objetoAMover.transform.position;
+			posicionObjetoAMover = posicionGuardada;
+			objetoAMover.transform.position = posicionObjetoAMover;
+		}
+		
+		/*
 		if (menuDerrota != null)
 		{
 			menuDerrota.SetActive(true);
 		}
+		*/
 	}
 
 	private void OnCollisionExit2D(Collision2D collision)
@@ -234,9 +247,10 @@ public class PlayerMovement : MonoBehaviour
 			PUDobleDanio = true;
 			currentDamage = currentDamage *2;
 		}
-		if (collision.CompareTag("Checkpoint"))
+		if (collision.CompareTag("Control"))
 		{
-			controlador?.GuardarDatos();
+			posicionGuardada = transform.position;
+			Debug.Log("Posición guardada: " + posicionGuardada);
 		}
 	}
 
